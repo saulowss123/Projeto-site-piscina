@@ -1,0 +1,169 @@
+/* Estilos personalizados para o portfólio */
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 50px; /* Para não sobrepor o cabeçalho fixo */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(44, 52, 63);
+}
+
+.social-media a {
+  font-size: 24px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+/* Personalização do botão de "Voltar ao Topo" */
+a.text-white {
+  text-decoration: none;
+}
+
+/* Estilo para a logo */
+.logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 51%; /* Deixa a imagem redonda */
+}
+
+/* Botão de rede social */
+.social-icons {
+  list-style: none;
+  display: table;
+  margin: 0 auto !important;
+}
+
+.social-icons li {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  font-size: 20px; /* Substituindo $font-size */
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  width: 40px; /* Substituindo $tamanho */
+  height: 40px;
+  line-height: 40px;
+  background: #444; /* Substituindo $cor-fundo */
+  color: #DDD; /* Substituindo $cor-icone */
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #FC7D15; /* Substituindo $cor-fundo-hover */
+  color: #FFF; /* Substituindo $cor-icone-hover */
+}
+
+/* Versão vertical */
+.social-icons.vertical {
+  width: 40px; /* Substituindo $tamanho */
+}
+
+.social-icons.vertical li {
+  margin-bottom: 5px; /* Substituindo $espacamento */
+}
+
+.social-icons.vertical li:last-child {
+  margin-right: 0;
+}
+
+.social-icons.vertical a {
+  background: #444; /* Substituindo $cor-fundo */
+  color: #DDD; /* Substituindo $cor-icone */
+}
+
+.social-icons.vertical a:hover {
+  background: #FC7D15; /* Substituindo $cor-fundo-hover */
+  color: #FFF; /* Substituindo $cor-icone-hover */
+}
+
+/* Ajusta as imagens dentro do carrossel */
+.carousel-inner img {
+  max-height: 500px; /* Define uma altura máxima */
+  object-fit: cover; /* Garante que a imagem se ajuste proporcionalmente */
+  width: 100%; /* Garante que a imagem ocupe toda a largura */
+  border-radius: 10px; /* Adiciona bordas arredondadas para um visual mais moderno */
+}
+
+/* Espaçamento e alinhamento para a seção da galeria */
+#gallery {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Botões de navegação do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro semitransparente */
+  border-radius: 50%; /* Deixa os ícones redondos */
+  padding: 10px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Fundo mais escuro ao passar o mouse */
+}
+
+/* Estilo para a seção Sobre */
+#about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Estilo para a imagem */
+.about-image img {
+  max-width: 300px; /* Largura máxima da imagem */
+  border-radius: 8px; /* Borda arredondada */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Ajustes para o texto */
+.about-text {
+  flex: 1;
+  text-align: justify;
+}
+
+/* Personalização do rodapé */
+footer {
+  background-color: #1b2127; /* Cor de fundo, altere para a cor que desejar */
+  color: #ffffff; /* Cor do texto, altere para a cor que desejar */
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Alteração na cor do link */
+footer a {
+  color: #ffffff; /* Cor do link */
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f39c12; /* Cor do link ao passar o mouse */
+}
+
+.texto1 {
+  color: #0a0906; /* Cor personalizada (exemplo: laranja) */
+}
+
+
